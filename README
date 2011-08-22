@@ -1,0 +1,6 @@
+A set of helper scripts for Git/SVN bridge
+
+git_gc.sh - runs 'git gc' for Git repository, and runs 'git svn gc' if the repository is connected to SVN
+
+git_svn_up.sh - runs an equivalent of 'svn update' on Git repository connected to SVN, i.e.
+ 'git svn merge' and 'git svn dcommit'. The script checks for uncommited content before running the commands
