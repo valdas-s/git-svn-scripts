@@ -35,5 +35,6 @@ git branch
 echo "Check if all tags and branches were migrated, and if so push to GIT by executing the following:"
 echo git remote add origin "git@my-git-server:/some/path/$2.git"
 echo git push origin --all
+echo git push origin --tag
 
 cd ..
