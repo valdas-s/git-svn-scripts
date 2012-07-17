@@ -4,3 +4,5 @@ git_gc.sh - runs 'git gc' for Git repository, and runs 'git svn gc' if the repos
 
 git_svn_up.sh - runs an equivalent of 'svn update' on Git repository connected to SVN, i.e.
  'git svn merge' and 'git svn dcommit'. The script checks for uncommited content before running the commands
+
+svn-to-git.sh - migrates given SVN repository to GIT. Requires users.txt file in current directory.
